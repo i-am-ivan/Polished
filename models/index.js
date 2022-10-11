@@ -6,3 +6,4 @@ const Appointment_service = require('./Appointment_service');
 //define the relationships
 
 module.exports = { User, Services, Appointment, Appointment_service}; 
+
