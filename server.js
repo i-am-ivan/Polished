@@ -13,7 +13,7 @@ const app = express();
 const PORT = process.env.PORT || 3001;
 
 // Helpers for the app from nodemailer, twillio and auth (for login)
-const hbs = exphbs.create({ nodemailer, twillio, auth });
+const hbs = exphbs.create({ });
 
 const sess = {
   secret: 'Super secret secret',

@@ -1,10 +1,9 @@
 const { Model, DataTypes } = require('sequelize');
-//need to set up config 
 const sequelize = require('../config/connection');
 
-class Services extends Model {}
+class Service extends Model {}
 
-Services.init(
+Service.init(
     {
         id: {
             type: DataTypes.INTEGER,
@@ -18,17 +17,24 @@ Services.init(
         },
         desctiption: {
             type: DataTypes.STRING,
-            allowNull: false,
+            allowNull: true,
         },
         price: {
-            type: DataTypes.DECIMAL,
-            allowNull: false,
+            type: DataTypes.INTEGER,
+            allowNull: true,
         },
-        time_slot: {
-            type: DataTypes.TIME,
+        time_frame: {
+            type: DataTypes.INTEGER,
             allowNull: false,
         }
+    },
+    {
+        sequelize,
+        timestamps: false,
+        freezeTableName: true,
+        underscored: true,
+        modelName: 'service',
     }
 );
 
-module.exports = Services;
+module.exports = Service;

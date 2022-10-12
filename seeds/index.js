@@ -1,14 +1,28 @@
-// includes seeding files
+const { 
+  User, 
+  Service, 
+  Appointment, 
+  AppointmentService } = require('../models/');
+const userData = require('./user_data.json');
+const serviceData = require('./service_data.json');
+const appointmentData = require('./appointment_data.json');
+const apptServData = require('./appt_serv_data.json');
+
 
 const sequelize = require('../config/connection');
 
 const seedAll = async () => {
   await sequelize.sync({ force: true });
-  console.log('\n----- DATABASE SYNCED -----\n');
 
   // start to seeding database
+  User.bulkCreate(userData, {
+    individualHooks: true,
+    returning: true,
+  });
+  Service.bulkCreate(serviceData);
+  Appointment.bulkCreate(appointmentData);
+  AppointmentService.bulkCreate(apptServData);
   
-
   process.exit(0);
 };
 
