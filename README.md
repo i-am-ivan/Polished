@@ -16,7 +16,7 @@
   git clone ....
   npm i -> install the packages
   source schema.sql
-  npm run sedd -> adding database
+  npm run seed -> adding database
   ```
   
 ## Features

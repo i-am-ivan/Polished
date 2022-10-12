@@ -1,1 +1,32 @@
-[]
+[
+    {
+        "appointment_id": 1,
+        "service_id": 2,
+        "user_id": null
+    },
+    {
+        "appointment_id": 1,
+        "service_id": 6,
+        "user_id": 4
+    },
+    {
+        "appointment_id": 2,
+        "service_id": 11,
+        "user_id": 7
+    },
+    {
+        "appointment_id": 3,
+        "service_id": 11,
+        "user_id": null
+    },
+    {
+        "appointment_id": 4,
+        "service_id": 12,
+        "user_id": 9
+    },
+    {
+        "appointment_id": 4,
+        "service_id": 5,
+        "user_id": 8
+    }
+]
