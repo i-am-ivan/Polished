@@ -15,13 +15,13 @@ const seedAll = async () => {
   await sequelize.sync({ force: true });
 
   // start to seeding database
-  User.bulkCreate(userData, {
+  await User.bulkCreate(userData, {
     individualHooks: true,
     returning: true,
   });
-  Service.bulkCreate(serviceData);
-  Appointment.bulkCreate(appointmentData);
-  AppointmentService.bulkCreate(apptServData);
+  await Service.bulkCreate(serviceData);
+  // Appointment.bulkCreate(appointmentData);
+  // AppointmentService.bulkCreate(apptServData);
   
   process.exit(0);
 };

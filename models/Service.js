@@ -15,8 +15,8 @@ Service.init(
             type: DataTypes.STRING,
             allowNull: false,
         },
-        desctiption: {
-            type: DataTypes.STRING,
+        description: {
+            type: DataTypes.TEXT,
             allowNull: true,
         },
         price: {
