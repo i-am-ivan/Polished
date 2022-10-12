@@ -1,0 +1,80 @@
+[
+    {
+        "name": "Basic Manicure",
+        "description": "This manicure includes nail trimming, shaping, buffing, cuticle grooming using cuticle softener, massage using lotion conditioner, ending with hot towel and color of your choice.",
+        "price": 16,
+        "time_frame": 30
+    },
+    {
+        "name": "Spa Manicure",
+        "description": "This manicure includes everything from the Spa Manicure with an additional Paraffin Treatment leaving your hand soft.",
+        "price": 23,
+        "time_frame": 30
+    },
+    {
+        "name": "Allure Manicure",
+        "description": "This manicure includes nail trimming, shaping, buffing, cuticle grooming using cuticle softener. Also includes Sugar Scrub for exfoliation, Paraffin Treatment for softening along with Massage. Ending with Hot Towel wraps and color of your choice.",
+        "price": 30,
+        "time_frame": 45
+    },
+    {
+        "name": "Gel Manicure",
+        "description": "This manicure includes nail trimming, shaping, buffing, cuticle grooming using cuticle softener. Massage using lotion conditioner follow by Hot Towel, and Gel Color of your choice. This Gel Color will stay longer than two weeks and do not damage your natural nails.",
+        "price": 35,
+        "time_frame": 45
+    },
+    {
+        "name": "Basic Pedicure",
+        "description": "This pedicure includes nail trimming, shaping, buffing, cuticle grooming, cleaning of dead skin on the heels using softener and lotion conditioner for foot massage. Ending with hot towel and polish of your choice.",
+        "price": 29,
+        "time_frame": 30
+    },
+    {
+        "name": "Spa Pedicure",
+        "description": "This pedicure includes nail trimming, shaping, buffing, cuticle grooming, cleaning of the dead skin on the heels using softener. Also includes Honey Sugar Scrub Exfoliation for soft and smooth skin, and lotion conditioner for Special Foot Massage Treatment. Ending with Hot Towel wraps and polish of your choice.",
+        "price": 39,
+        "time_frame": 45
+    },
+    {
+        "name": "Allure Pedicure",
+        "description": "This Pedicure includes nail trimming, shaping, buffing, cuticle grooming, cleaning dead skin on the heels using Callus Remover. Your choice of one VOESH’s 4-step formula-free skincare routine: Sea Salt Soak for softening, Sugar Scrub for moisturizing and exfoliating, Mud Masque for cooling and soothing sensation, Hot Stones for Deep Massage Sensation, Lotion Conditioner for an Extra Foot Massage. Ending with Hot Towel wraps and polish of your choice. This pedicure will remove all dry skin, leaving you with soft, smooth, and healthy skin.",
+        "price": 49,
+        "time_frame": 45
+    },
+    {
+        "name": "Super Deluxe Manicure",
+        "description": "This Pedicure includes nail trimming, shaping, buffing, cuticle grooming, cleaning the dead skin on the heels using Callus Remover. Also includes PEARL SPA’s 6 steps skincare treatment: Soak, Clean, Scrub, Foot Mask, Massage Cream, and Natural Herbs Cream. In addition, this pedicure also uses Hot Stones for Deep Massage Sensation with 20 minutes of relaxation while being treated by Noire’s Special Foot Massage Treatment, Hot Towel wraps. Ending with Paraffin Treatment and polish of your choice. This pedicure will help dry skin and cracked heels, leaving you with soft and smooth skin with the additional health benefits of Reflexology.",
+        "price": 59,
+        "time_frame": 60
+    },
+    {
+        "name": "Kid Manicure",
+        "description": "This manicure is for kids under 10 including nail trimming, shaping, buffing, cuticle grooming using cuticle softener, and color of your choice with a simple design.",
+        "price": 10,
+        "time_frame": 15
+    },
+    {
+        "name": "Kid Pedicure",
+        "description": "This pedicure is for kids under 10 including nail trimming, shaping, buffing, cuticle grooming, cleaning of dead skin on the heels using softener and lotion conditioner for foot massage, and finally polish of your choice with a simple design.",
+        "price": 20,
+        "time_frame": 30
+    },
+    {
+        "name": "SNS Nails",
+        "description": "A dipping powder process, which is natural and healthy for your nails using no liquid primer and UV light, helps your nails to keep its strength and healthy.",
+        "price": 45,
+        "time_frame": 60
+    },
+    {
+        "name": "Acrylic Nails with Gel Color",
+        "description": "An option for those who do not have strong nails. A Thin acrylic layer is applied giving your nails a long and natural looking appearance.",
+        "price": 50,
+        "time_frame": 60
+    },
+    {
+        "name": "Eyebrow Wax",
+        "description": "",
+        "price": 12,
+        "time_frame": 15
+    }
+]

@@ -1,0 +1,73 @@
+[
+    {
+        "email": "manager@gmail.com",
+        "first_name": "manager",
+        "phone": "7145897485",
+        "password": "Abc@1234",
+        "role": "manager"
+    },
+    {
+        "email": "julia@gmail.com",
+        "first_name": "Julia",
+        "last_name": "Brown",
+        "phone": "0000000001",
+        "password": "JuliaBrown",
+        "role": "customer"
+    },
+    {
+        "email": "cindy@gmail.com",
+        "first_name": "Cindy",
+        "last_name": "Suzan",
+        "phone": "0000000002",
+        "password": "CindySuzan",
+        "role": "customer"
+    },
+    {
+        "email": "allen@gmail.com",
+        "first_name": "Allen",
+        "last_name": "Harper",
+        "phone": "0000000003",
+        "password": "AllenHarper",
+        "role": "customer"
+    },
+    {
+        "email": "taylor@gmail.com",
+        "first_name": "Taylor",
+        "last_name": "Martin",
+        "phone": "0000000004",
+        "password": "TaylorMartin",
+        "role": "customer"
+    },
+    {
+        "email": "amy@gmail.com",
+        "first_name": "Amy",
+        "last_name": "Nguyen",
+        "phone": "0000000005",
+        "password": "AmyNguyen",
+        "role": "technician"
+    },
+    {
+        "email": "linda@gmail.com",
+        "first_name": "Linda",
+        "last_name": "Tran",
+        "phone": "0000000006",
+        "password": "LindaTran",
+        "role": "technician"
+    },
+    {
+        "email": "annie@gmail.com",
+        "first_name": "Annie",
+        "last_name": "Pham",
+        "phone": "0000000007",
+        "password": "AnniePham",
+        "role": "technician"
+    },
+    {
+        "email": "john@gmail.com",
+        "first_name": "John",
+        "last_name": "Nguyen",
+        "phone": "0000000004",
+        "password": "JohnNguyen",
+        "role": "technician"
+    }
+]

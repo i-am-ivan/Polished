@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS polished_db;
+CREATE DATABASE polished_db;
