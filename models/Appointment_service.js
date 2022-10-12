@@ -27,7 +27,7 @@ AppointmentService.init(
                 key: 'id',
               },
         },
-        technician_id: {
+        user_id: {
             type: DataTypes.INTEGER,
             allowNull: true,
             defaultValue: null,

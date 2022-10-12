@@ -20,8 +20,8 @@ const seedAll = async () => {
     returning: true,
   });
   await Service.bulkCreate(serviceData);
-  // Appointment.bulkCreate(appointmentData);
-  // AppointmentService.bulkCreate(apptServData);
+  await Appointment.bulkCreate(appointmentData);
+  await AppointmentService.bulkCreate(apptServData);
   
   process.exit(0);
 };
